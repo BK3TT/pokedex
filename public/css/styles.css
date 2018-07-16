@@ -1,0 +1,28 @@
+span.heading{
+    font-size: 16px;
+    font-weight: bold;
+vertical-align: middle;
+}
+span.desc{
+    font-size: 12px;
+    vertical-align: middle;
+}
+div.spacer {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+}
+
+div.abilities, div.types{
+    position: fixed;
+    background: rgba(0, 0, 0, 0.9);
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    font-size: 20px;
+    color: #ffffff;
+    display: none;
+}
